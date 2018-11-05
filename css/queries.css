@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+
+    .budget {
+        width: 60%;
+    }
+
+    .add__type {
+       display: block;
+       margin: 0 auto;
+       margin-bottom: 10px;
+    }
+
+    .add__description { width: 45%;}
+    .add__value { width: 30%;}
+
+    .add__btn {
+        font-size: 30px;
+    }
+}
