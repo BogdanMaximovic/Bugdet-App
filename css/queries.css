@@ -1,19 +1,48 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
     .budget {
-        width: 60%;
+        width: 75%;
     }
 
     .add__type {
        display: block;
-       margin: 0 auto;
        margin-bottom: 10px;
     }
 
     .add__description { width: 45%;}
     .add__value { width: 30%;}
 
+}
+
+@media only screen and (max-width: 600px) {
+
+    .budget {
+        width: 85%;
+    }
+
+    .top {
+      height: 75vh;
+    }
+
+    .add__type {
+       display: inline;
+       margin: 0 auto;
+    }
+
+    .add__description { 
+      width: 100%;
+      display: block;
+     }
+    .add__value { 
+      width: 40%; 
+      display: inline-block;
+    }
+
     .add__btn {
         font-size: 30px;
+    }
+    .income,
+    .expenses {
+        width: 100%;
     }
 }
