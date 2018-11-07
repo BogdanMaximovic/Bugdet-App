@@ -34,7 +34,7 @@ body {
 **********************************************/
 
 .top {
-    height: 50vh;
+    height: 55vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url(../img/back.png);
     background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/back.png);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/back.png);
@@ -214,7 +214,7 @@ h2 {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .icome__title { color: #28B9B5; }
